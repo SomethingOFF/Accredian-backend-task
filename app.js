@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 app.use(cookieParser());
 const allowedOrigins = [
-  "https://accredian-frontend-task-two-sigma.vercel.app/",
+  "https://accredian-frontend-task-black-eight.vercel.app/",
 ];
 app.use(
   cors({
